@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "dashboard": "node receipts-dashboard.js"
+    "dashboard": "node receipts-dashboard.js",
+    "build": "echo 'Static site - no build needed'",
+    "vercel-build": "echo 'Static site ready for Vercel'"
   },
   "dependencies": {
     "viem": "^2.45.1",

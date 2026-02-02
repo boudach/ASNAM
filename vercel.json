@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "asnam-dashboard",
+  "builds": [
+    {
+      "src": "webdash/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/webdash/index.html"
+    }
+  ]
+}
