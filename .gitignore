@@ -1,0 +1,23 @@
+# Secrets - never commit these
+.env.*
+*.key
+*.pem
+.moltbook.config
+
+# Railway
+.railway/
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local config
+~/.config/
+.config/
+CREDENTIALS.md
