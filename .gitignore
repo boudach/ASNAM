@@ -4,6 +4,9 @@
 *.pem
 .moltbook.config
 
+# Slack
+.env.slack
+
 # Railway
 .railway/
 
